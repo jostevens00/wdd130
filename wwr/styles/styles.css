@@ -22,20 +22,16 @@
     grid-row: 1/2;
     margin-top:100px;
 }
-
 #hero-msg h1{
     text-align:center;
 }
-
 #hero-msg h4{
     text-align:center;
     color:rgb(155, 253, 164);
 }
-
 main section img{
     box-sizing: border-box;
 }
-
 nav{
     display:flex;
     justify-content: space-around;
@@ -53,15 +49,12 @@ nav a:hover{
 .button-box{
     text-align:center;
 }
-
 main section{ 
     text-align:center;
 }
-
 #background{
     height: 725px;
 }
-
 body{
     background-color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -81,7 +74,6 @@ h2{
 h4{
     color: #0b4b2d;
 }
-
 .home-title{
     font-family:'Rock Salt', 'Bradley Hand', 'sans-serif';
     font-size: 2em;
@@ -144,11 +136,9 @@ footer a{
 footer a:hover{
     color:cadetblue;
 }
-
 footer p a:hover{
     text-decoration:underline;
 }
-
 footer .social img{
     padding-top: 15px;
 }
@@ -160,39 +150,32 @@ footer .social img{
     grid-row:6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
 .msg h2{
     color:white;
 }
-
 .msg p {
     color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
-
 .logo{
     width:80px;
 }
-
 .icon{
     width: 80px;
     padding-top: 10px;
 }
-
 #logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self:center;
 }
-
 .card-img{
     border: 10px black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
 .card-img:hover{
     opacity: .6;
     transform:scale(1.1);
@@ -205,13 +188,11 @@ footer .social img{
     grid-column: 2/4;
     grid-row: 2/3;
 }
-
 .camping-card{
     margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
 }
-
 .rapids-card{
     margin: 200px 0;
     grid-column: 8/10;
@@ -222,6 +203,76 @@ footer .social img{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+.rivers-grid{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.rivers-title{
+    text-align:center;
+    font-family:'Rock Salt', 'Bradley Hand', 'sans-serif';
+    font-size: 70px;
+    color:rgb(213, 245, 216);
+    margin-top: 10px;
+}
+.salmon{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(213, 245, 216);
+    color:#0b4b2d;
+    grid-row: 1;
+}
+#salmon-title{
+    font-family:'Rock Salt', 'Bradley Hand', 'sans-serif';
+}
+.salmon-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-column: 2;
+}
+.salmon-img{
+    width: 400px;
+    grid-column: 1;
+    margin-left: 150px;
+}
+.gray{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#94BBCC;
+    color:#0b4b2d;
+    grid-row: 2;
+}
+#gray-title{
+    font-family:'Rock Salt', 'Bradley Hand', 'sans-serif';
+}
+.gray-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-column: 1;
+}
+.deso{
+    width: 400px;
+    grid-column: 2;
+    margin-left: 150px;
+}
+.grand{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(213, 245, 216);
+    color:#0b4b2d;
+    grid-row: 3;
+}
+#grand-title{
+    font-family:'Rock Salt', 'Bradley Hand', 'sans-serif';
+}
+.grand-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-column: 2;
+}
+.canyon{
+    width: 400px;
+    grid-column: 1;
+    margin-left: 150px;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
