@@ -52,7 +52,7 @@ footer{
     align-items:center;
 }
 footer p{
-    font-size:1.2em;
+    font-size:25px;
 }
 footer a{
     color:#2c4323;
@@ -85,7 +85,7 @@ footer .social img{
    font-size: 30px;
    color:#2c4323;
 }
-main{
+#home-grid{
     display:grid;
     grid-template-columns: 400px 1fr 1fr 1fr 1fr 400px;
     grid-template-rows: 1fr 200px 350px 200px;
@@ -119,6 +119,7 @@ main{
     grid-row: 1;
     margin-top: 200px;
     color: #2c7750;
+    line-height: 45px;
 }
 .background{
     background-color:#a2e182;
@@ -146,7 +147,57 @@ main{
     color:#2c4323;
 }
 
+#inspo-grid{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    margin-top:100px;
+}
 
+.cats{
+    grid-column:1/3;
+    grid-row:1/2;
+    margin-left: 50px;
+    border-radius: 5%;
+    width: 550px;
+}
 
+.quotes{
+    grid-column:4/6;
+    grid-row:1/2;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family:"IM Fell French Canon SC",Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:#2c7750;
+}
+.quote-background{
+    grid-column: 4/6;
+    grid-row: 1/3;
+}
 
+.tony{
+    grid-column: 5/6;
+    grid-row: 3;
+    border-radius: 15%;
+    width: 350px;
+    margin-right: 225px;
+    margin-top: 75px;
+}
+.tony-background{
+    grid-column: 4/6;
+    grid-row: 3;
+    margin-right: 100px;
+    margin-left: 50px;
+    border-radius: 15%;
+    background-color:#2c4323;
+}
+.spot-background{
+    grid-column:1/4;
+    grid-row:3;
+    margin-left: 50px;
+    border-radius: 15%;
+    background:#a2e182;
+}
 
