@@ -149,55 +149,86 @@ footer .social img{
 
 #inspo-grid{
     display:grid;
-    grid-template-columns: 200px 200px 200px 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px 150px 500px;
     margin-top:100px;
 }
 
-.cats{
-    grid-column:1/3;
+#pic{
+    width: 250px;
+    margin-left: 200px;
+    border:#2c4323;
+    border-style:inset;
+}
+.flower{
     grid-row:1/2;
-    margin-left: 50px;
-    border-radius: 5%;
-    width: 550px;
+    grid-column: 1/3;
+}
+.lilac{
+    grid-row:2/3;
+    grid-column: 1/3;
+}
+.lotus{
+    grid-row:3/4;
+    grid-column: 1/3;
 }
 
 .quotes{
-    grid-column:4/6;
+    grid-column:4/7;
     grid-row:1/2;
-    margin-top: 150px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-top: 100px;
+
     font-family:"IM Fell French Canon SC",Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 40px;
     color:#2c7750;
 }
-.quote-background{
-    grid-column: 4/6;
-    grid-row: 1/3;
+.rose{
+    grid-column: 4/7;
+    grid-row: 5;
+    border:#2c4323;
+    border-style:inset;
+    width: 375px;
+    margin-left:140px;
+    margin-top: 60px;
 }
-
-.tony{
-    grid-column: 5/6;
-    grid-row: 3;
-    border-radius: 15%;
-    width: 350px;
-    margin-right: 225px;
-    margin-top: 75px;
-}
-.tony-background{
-    grid-column: 4/6;
-    grid-row: 3;
-    margin-right: 100px;
+.rose-background{
+    grid-column:4/7;
+    grid-row:5;
     margin-left: 50px;
     border-radius: 15%;
-    background-color:#2c4323;
+    background:#a2e182;
 }
 .spot-background{
+    display:grid;
+    grid-template-columns: 180px 180px 180px;
     grid-column:1/4;
-    grid-row:3;
+    grid-row:5;
     margin-left: 50px;
     border-radius: 15%;
     background:#a2e182;
 }
 
+#notes{
+    width:135px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+.notes1{
+    grid-column:1/2;
+}
+.notes2{
+    grid-column:2/3;
+}
+.notes3{
+    grid-column: 3/4;
+}
+.notes4{
+    grid-column:1/2;
+}
+.notes5{
+    grid-column:2/3;
+}
+.notes6{
+    grid-column:3/4;
+}
